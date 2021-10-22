@@ -73,6 +73,7 @@ add_action( 'wp_insert_post', function ( $post_ID, $post, $update ) {
 		return;
 	}
 
+	// @link https://labs.goo.ne.jp/api/jp/named-entity-extraction/
 	$endpoint_url = 'https://labs.goo.ne.jp/api/entity';
 
 	// Get application ID from option data.
